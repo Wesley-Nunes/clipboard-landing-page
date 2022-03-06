@@ -22,6 +22,9 @@
     &--heading-one {
       font-size: calc(2.6rem + 1.4vw);
     }
+    &--heading-two {
+      font-size: calc(2.2rem + 1.4vw);
+    }
   }
 
   &__paragraph {
@@ -64,5 +67,11 @@
       background-color: $light-blue;
       border-color: $light-blue;
     }
+  }
+  &__img {
+    width: 84vw;
+    max-width: 72rem;
+
+    margin-top: 6rem;
   }
 }

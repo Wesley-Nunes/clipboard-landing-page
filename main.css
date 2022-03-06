@@ -42,6 +42,10 @@
   font-size: calc(2.6rem + 1.4vw);
 }
 
+.container__title--heading-two {
+  font-size: calc(2.2rem + 1.4vw);
+}
+
 .container__paragraph {
   color: #9fabb2;
   line-height: 2.4rem;
@@ -88,6 +92,12 @@
 .container__btn--secondary {
   background-color: #6173ff;
   border-color: #6173ff;
+}
+
+.container__img {
+  width: 84vw;
+  max-width: 72rem;
+  margin-top: 6rem;
 }
 
 @media (min-width: 376px) {
