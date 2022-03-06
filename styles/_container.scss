@@ -3,11 +3,23 @@
   flex-direction: column;
   align-items: center;
 
-  padding-top: 12.8rem;
+  padding: 12.8rem 3.2rem 0;
 
   &--bg-header {
     background-image: url("../images/bg-header-mobile.webp");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right top;
+    background-origin: border-box;
+  }
+
+  &__title {
+    font-weight: 600;
+    text-align: center;
+    color: $dark-grayish-blue;
+
+    margin-top: 5.4rem;
+    &--heading-one {
+      font-size: calc(2.6rem + 1.4vw);
+    }
   }
 }

@@ -39,7 +39,7 @@
 }
 
 .container__title--heading-one {
-  font-size: 3.2rem;
+  font-size: calc(2.6rem + 1.4vw);
 }
 
 @media (min-width: 376px) {
