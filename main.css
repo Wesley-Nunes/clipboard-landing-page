@@ -42,6 +42,15 @@
   font-size: calc(2.6rem + 1.4vw);
 }
 
+.container__title--heading-two {
+  font-size: calc(2.2rem + 1.2vw);
+}
+
+.container__title--heading-three {
+  font-size: 2.4rem;
+  margin-top: 4.8rem;
+}
+
 .container__paragraph {
   color: #9fabb2;
   line-height: 2.4rem;
@@ -70,6 +79,11 @@
   margin-top: 5.2rem;
 }
 
+.container__wrapper--no-space {
+  gap: 0;
+  margin-top: 0;
+}
+
 .container__btn {
   height: 5.6rem;
   width: calc(32rem - 6vw);
@@ -90,8 +104,24 @@
   border-color: #6173ff;
 }
 
+.container__img {
+  width: 84vw;
+  max-width: 64rem;
+  margin-top: 6rem;
+}
+
 @media (min-width: 376px) {
   .container--bg-header {
     background-image: url("../images/bg-header-desktop.webp");
+  }
+}
+
+@media (min-width: 1440px) {
+  .container__img {
+    position: relative;
+    left: -10vw;
+  }
+  .container__responsive--left-text {
+    text-align: left;
   }
 }

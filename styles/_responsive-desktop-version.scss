@@ -5,3 +5,15 @@
     }
   }
 }
+
+@media (min-width: 1440px) {
+  .container {
+    &__img {
+      position: relative;
+      left: -10vw;
+    }
+    &__responsive--left-text {
+      text-align: left;
+    }
+  }
+}
