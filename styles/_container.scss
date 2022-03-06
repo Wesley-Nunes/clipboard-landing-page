@@ -3,7 +3,9 @@
   flex-direction: column;
   align-items: center;
 
-  padding: 12.8rem 3.2rem 0;
+  text-align: center;
+
+  padding: 12.4rem 3.2rem 0;
 
   &--bg-header {
     background-image: url("../images/bg-header-mobile.webp");
@@ -14,12 +16,21 @@
 
   &__title {
     font-weight: 600;
-    text-align: center;
     color: $dark-grayish-blue;
 
-    margin-top: 5.4rem;
+    margin-top: 6rem;
     &--heading-one {
       font-size: calc(2.6rem + 1.4vw);
     }
+  }
+
+  &__paragraph {
+    color: $grayish-blue;
+
+    line-height: 2.4rem;
+    inline-size: 82vw;
+    max-inline-size: 70rem;
+
+    margin-top: 2rem;
   }
 }
