@@ -50,6 +50,46 @@
   margin-top: 2rem;
 }
 
+.container__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2.4rem;
+  margin-top: 5.2rem;
+}
+
+.container__btn {
+  height: 5.6rem;
+  width: calc(32rem - 6vw);
+  color: #fff;
+  font-size: calc(2rem - 0.2vw);
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.container__btn--primary {
+  background-color: #26baa4;
+  border-color: #26baa4;
+}
+
+.container__btn--secondary {
+  background-color: #6173ff;
+  border-color: #6173ff;
+}
+
 @media (min-width: 376px) {
   .container--bg-header {
     background-image: url("../images/bg-header-desktop.webp");

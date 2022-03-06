@@ -33,4 +33,36 @@
 
     margin-top: 2rem;
   }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+
+    margin-top: 5.2rem;
+  }
+  &__btn {
+    height: 5.6rem;
+    width: calc(32rem - 6vw);
+
+    color: #fff;
+    font-size: calc(2rem - 0.2vw);
+    font-weight: 600;
+
+    border-radius: 50px;
+
+    cursor: pointer;
+
+    &--primary {
+      background-color: $strong-cyan;
+      border-color: $strong-cyan;
+    }
+    &--secondary {
+      background-color: $light-blue;
+      border-color: $light-blue;
+    }
+  }
 }
