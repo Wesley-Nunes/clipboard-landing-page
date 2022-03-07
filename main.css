@@ -121,6 +121,13 @@
     position: relative;
     left: -10vw;
   }
+  .container__img--center {
+    position: static;
+    left: auto;
+  }
+  .container__img--bigger {
+    max-width: 64vw;
+  }
   .container__responsive--left-text {
     text-align: left;
   }

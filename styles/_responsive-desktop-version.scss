@@ -11,6 +11,13 @@
     &__img {
       position: relative;
       left: -10vw;
+      &--center {
+        position: static;
+        left: auto;
+      }
+      &--bigger {
+        max-width: 64vw;
+      }
     }
     &__responsive--left-text {
       text-align: left;
