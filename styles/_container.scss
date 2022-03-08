@@ -61,6 +61,10 @@
     }
     &--column {
       flex-direction: column;
+      justify-content: flex-start;
+    }
+    &--mh30 {
+      min-height: 30rem;
     }
   }
   &__btn {
