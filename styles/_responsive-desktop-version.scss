@@ -4,6 +4,14 @@
       background-image: url("../images/bg-header-desktop.webp");
     }
   }
+  .container-footer {
+    &--item-container {
+      justify-content: flex-start;
+    }
+    &__item {
+      text-align: left;
+    }
+  }
 }
 
 @media (min-width: 1440px) {

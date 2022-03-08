@@ -1,0 +1,38 @@
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  background-color: #f5f6f8;
+
+  margin-top: 16rem;
+  &--item-container {
+    justify-content: center;
+
+    max-width: 60rem;
+
+    margin: 2rem;
+  }
+  &__logo {
+    height: 5.4rem;
+    width: 5.4rem;
+    margin: 5.4rem;
+  }
+  &__item {
+    display: block;
+    height: 2.4rem;
+    width: 15rem;
+    color: #4c545d;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 1rem;
+    cursor: pointer;
+
+    &--auto-width {
+      width: auto;
+    }
+  }
+}
