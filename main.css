@@ -59,6 +59,11 @@
   margin-top: 2rem;
 }
 
+.container__paragraph--small-container {
+  max-width: 37.5rem;
+  padding-top: 4rem;
+}
+
 .container__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,6 +87,13 @@
 .container__wrapper--no-space {
   gap: 0;
   margin-top: 0;
+}
+
+.container__wrapper--column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .container__btn {

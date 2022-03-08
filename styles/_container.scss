@@ -13,7 +13,6 @@
     background-position: right top;
     background-origin: border-box;
   }
-
   &__title {
     font-weight: 600;
     color: $dark-grayish-blue;
@@ -28,10 +27,9 @@
     &--heading-three {
       font-size: 2.4rem;
 
-      margin-top: 4.8rem;
+      margin-top: 3.6rem;
     }
   }
-
   &__paragraph {
     color: $grayish-blue;
 
@@ -40,8 +38,13 @@
     max-inline-size: 70rem;
 
     margin-top: 2rem;
-  }
 
+    &--small-container {
+      max-width: 37.5rem;
+
+      padding-top: 4rem;
+    }
+  }
   &__wrapper {
     display: flex;
     flex-direction: row;
@@ -55,6 +58,9 @@
     &--no-space {
       gap: 0;
       margin-top: 0;
+    }
+    &--column {
+      flex-direction: column;
     }
   }
   &__btn {
