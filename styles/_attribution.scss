@@ -1,0 +1,14 @@
+.attribution {
+  height: 18rem;
+  width: auto;
+
+  background-color: $dark-grayish-blue;
+  color: #fff;
+
+  padding: 6rem 12rem;
+
+  &__link {
+    color: $strong-cyan;
+    text-decoration: none;
+  }
+}
