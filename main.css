@@ -196,6 +196,19 @@
   width: auto;
 }
 
+.attribution {
+  height: 18rem;
+  width: auto;
+  background-color: #4c545d;
+  color: #fff;
+  padding: 6rem 12rem;
+}
+
+.attribution__link {
+  color: #26baa4;
+  text-decoration: none;
+}
+
 @media (min-width: 376px) {
   .container--bg-header {
     background-image: url("../images/bg-header-desktop.webp");
